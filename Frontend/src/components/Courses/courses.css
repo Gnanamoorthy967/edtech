@@ -1,0 +1,11 @@
+#courses{
+  
+        background: linear-gradient(
+          45deg,
+          rgb(130, 247, 148) 5%,
+          rgba(15, 37, 110, 1) 100%
+        );
+        background-blend-mode: normal;
+      font-weight: 600px;
+      font-size: 20px;
+}

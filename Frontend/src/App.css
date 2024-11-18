@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.course, .job, .challenge {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #f1f1f1;
+}
+
+
+
+@media (max-width: 1000px) {
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+@media (max-width:840px){
+  nav{
+    padding: 15px 0;
+  }
+  nav ul{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fa7b7b;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 25px 40px;
+  }
+}

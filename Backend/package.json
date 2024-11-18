@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "api for edtech",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gnanamoorthy967/edtech.git"
+  },
+  "keywords": [
+    "RajeshMoorthy@967"
+  ],
+  "author": "Gnanamoorthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gnanamoorthy967/edtech/issues"
+  },
+  "homepage": "https://github.com/Gnanamoorthy967/edtech#readme",
+  "dependencies": {
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
+  }
+}
